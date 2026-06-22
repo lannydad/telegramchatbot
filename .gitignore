@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.wrangler/
+.env
+.env.local
+*.log
+.DS_Store
+
+# IDE / 本地调试配置
+.vscode/
+.vscode-test/
+.idea/
+
+# 本地构建与调试缓存
+.cache/
+.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
